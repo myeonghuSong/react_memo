@@ -46,7 +46,7 @@ class PhoneInfo extends Component {
     }
 
     render() {
-        const { name, phone, id } = this.props.info;
+        const { name, phone } = this.props.info;
         const { editing, } = this.state;
         const style = {
             border: '1px solid black',
